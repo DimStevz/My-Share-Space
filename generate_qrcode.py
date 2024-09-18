@@ -20,7 +20,7 @@ img = qr.make_image(fill="black", back_color="white")
 file_name = input("Enter the file name for the QR code image (without extension): ")
 
 # Construct the full path
-img_path = f"C:/Users/Dimas/Desktop/All code/Phyton/Nyoba2Gajelas/qrcode/{file_name}.png"
+img_path = f"C:/{file_name}.png"
 
 # Save the image
 img.save(img_path)
